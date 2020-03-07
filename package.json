@@ -1,0 +1,19 @@
+{
+  "name": "reprice-poc",
+  "version": "0.0.0",
+  "description": "poc for common typescript module",
+  "scripts": {
+    "build": "tsc lib/*.ts --outDir dist"
+  },
+  "main": "dist/index.js",
+  "types":"dist/index.d.ts",
+  "repository": "https://github.com/WillZhangTR/dxp-trstore-reprice.git",
+  "author": "Will Zhang Thomson Reuters",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}

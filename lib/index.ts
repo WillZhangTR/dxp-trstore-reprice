@@ -1,0 +1,1 @@
+export const reprice = (quantity:number , basePrice: number) => quantity * basePrice; 
